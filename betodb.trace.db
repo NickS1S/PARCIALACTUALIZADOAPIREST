@@ -1,0 +1,68 @@
+2023-10-07 18:15:10 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: El objeto ya está cerrado
+The object is already closed [90007-214]
+2023-10-07 18:27:59 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: El objeto ya está cerrado
+The object is already closed [90007-214]
+2023-10-10 17:42:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: El objeto ya está cerrado
+The object is already closed [90007-214]
+2023-10-10 17:44:09 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: El objeto ya está cerrado
+The object is already closed [90007-214]
+2023-10-17 22:00:11 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: El objeto ya está cerrado
+The object is already closed [90007-214]
+2023-10-17 22:00:48 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: El objeto ya está cerrado
+The object is already closed [90007-214]
+2023-10-17 22:01:13 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: El objeto ya está cerrado
+The object is already closed [90007-214]
+2023-10-17 22:02:40 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: El objeto ya está cerrado
+The object is already closed [90007-214]
+2023-10-17 22:02:53 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: El objeto ya está cerrado
+The object is already closed [90007-214]
+2023-10-17 22:03:04 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: El objeto ya está cerrado
+The object is already closed [90007-214]
+2023-10-17 22:03:48 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: El objeto ya está cerrado
+The object is already closed [90007-214]
+2023-10-17 22:04:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: El objeto ya está cerrado
+The object is already closed [90007-214]
+2023-10-17 22:05:05 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: El objeto ya está cerrado
+The object is already closed [90007-214]
+2023-10-17 22:06:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: El objeto ya está cerrado
+The object is already closed [90007-214]
+2023-10-17 22:07:12 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: El objeto ya está cerrado
+The object is already closed [90007-214]
+2023-10-17 22:07:38 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: El objeto ya está cerrado
+The object is already closed [90007-214]
+2023-10-17 22:24:10 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLDataException: Conversión de datos fallida, convirtiendo "'' (DOMICILIO: ""LOCALIDAD_ID"" INTEGER NOT NULL)"
+Data conversion error converting "'' (DOMICILIO: ""LOCALIDAD_ID"" INTEGER NOT NULL)"; SQL statement:
+INSERT INTO "PUBLIC"."DOMICILIO"("ID","CALLE","NUMERO","LOCALIDAD_ID")VALUES(?,?,?,?) [22018-214]
+2023-10-17 22:24:10 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLDataException: Conversión de datos fallida, convirtiendo "'' (DOMICILIO: ""LOCALIDAD_ID"" INTEGER NOT NULL)"
+Data conversion error converting "'' (DOMICILIO: ""LOCALIDAD_ID"" INTEGER NOT NULL)"; SQL statement:
+INSERT INTO "PUBLIC"."DOMICILIO"("ID","CALLE","NUMERO","LOCALIDAD_ID")VALUES(?,?,?,?) [22018-214]
+2023-10-17 22:41:38 jdbc[16]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "[*]""persona-libro"""
+Syntax error in SQL statement "[*]""persona-libro"""; SQL statement:
+"persona-libro" [42000-214]
+2023-10-17 22:41:48 jdbc[16]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "[*]""persona-libro"""
+Syntax error in SQL statement "[*]""persona-libro"""; SQL statement:
+"persona-libro" [42000-214]
+2023-10-17 22:41:57 jdbc[16]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "[*]LIBRO_AUTOR"
+Syntax error in SQL statement "[*]LIBRO_AUTOR"; SQL statement:
+LIBRO_AUTOR [42000-214]
